@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 1.4vw;
 }
 
 /* BACKGROUND HOMEPAGE */
@@ -21,22 +22,99 @@ body {
 
 .header a {
     color: white!important;
-    font-size: 1.2rem;
     text-decoration: none;
 }
 
 .logoheader {
     color: white!important;
-    font-size: 2.6rem;
+    font-size: 240%;
+    line-height: 130%;
 }
 
-/* CONTENT HOMEPAGE */
-.homecontent{
-    margin-top:8vh;
+/* FOOTER */
+
+.footer p {
+    font-size: 70%;
 }
+
+.footer h2{
+    font-size:110%;
+}
+.footer i {
+    font-size: 140%;
+}
+
+.footer span {
+    font-size: 140%;
+}
+
+/* CONTENT HOME */
+
+.homecontent {
+    margin-top: 8vh;
+}
+
 .homecontent h1 {
-    font-size:3.6rem;
+    font-weight: 700;
+    font-size: 190%;
 }
-.homecontent h2{
-    font-size:1.8rem;
+
+.homecontent h2 {
+    font-weight: 500;
+    font-size: 100%;
+}
+
+.down {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    color: white;
+}
+
+.bi-chevron-down {
+    font-size: 140%;
+}
+
+/* RESPONSIVE MOBILE */
+
+@media (max-width: 768px) {
+    /* HEADER */
+    .header a {
+        font-size: 220%;
+    }
+    .logoheader {
+        font-size: 420%;
+        margin: 1vh 0;
+    }
+    /* CONTENT HOMEPAGE */
+    .homecontent h1 {
+        font-size: 420%;
+    }
+    .homecontent h2 {
+        font-size: 240%;
+    }
+    .bi-chevron-down {
+        font-size: 340%;
+    }
+}
+
+@media (max-width: 992px) and (min-width:767px) and (orientation: portrait) {
+    /* HEADER */
+    .header a {
+        font-size: 180%;
+    }
+    .logoheader {
+        font-size: 320%;
+    }
+    /* CONTENT HOMEPAGE */
+    .homecontent h1 {
+        font-size: 340%;
+    }
+    .homecontent h2 {
+        font-size: 190%;
+    }
+    .bi-chevron-down {
+        font-size: 240%;
+    }
 }
