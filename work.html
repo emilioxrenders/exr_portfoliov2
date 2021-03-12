@@ -33,7 +33,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-2 col-4">
-                        <a href="/"><div class="logoheader">EXR</div></a>
+                        <a href="/exr_portfoliov2/index.html"><div class="logoheader">EXR</div></a>
                     </div>
                     <div class="col-md-2 offset-md-6 col-3 offset-2 text-end">
                         <a class="align-middle unactive" href="/exr_portfoliov2/index.html">Home</a>
@@ -48,24 +48,23 @@
 
 
     <!-- CONTENT -->
-        <div data-aos="fade-up" class="container workcontent content mb-5 mt-3">
+        <div data-aos="fade-up" class="container mt-3 workcontent content">
             <div class="row text-center">
                 <div class="col-lg-4 mt-4">
                     <h2 class="mb-1">Storygram</h2><p class="mb-2 undertxt">HTML/Bootstrap</p>
                     <div class="card border-dark" id="storygram">
                         <div class="card-body">
-                            <a href="storygram.html" class="border border-dark">Visit project</a>
+                            <a href="/exr_portfoliov2/storygram.html" class="border border-dark">Visit project</a>
                         </div>
                     </div>
-                    <p class="mt-1">The social media platform aimed at photographers and photography enthousiasts.
-                    The project is currently designed for mobile only.</p>
+                    <p class="mt-1">The social media platform aimed at photographers and photography enthousiasts.</p>
                 </div>
 
                 <div class="col-lg-4 mt-4">
                     <h2 class="mb-1">Verbeeten</h2><p class="mb-2 undertxt">React/Material-ui/Firebase</p>
                     <div class="card border-dark" id="verbeeten">
                         <div class="card-body">
-                            <a href="https://i384125.hera.fhict.nl/ads3_verbeeten/#/donatie" target="_blank" class="border border-dark">Visit website</a>
+                            <a href="/exr_portfoliov2/verbeeten.html" class="border border-dark">Visit project</a>
                         </div>
                     </div>
                     <p class="mt-1">This project is a fully functional form made with Google Firebase.</p>
@@ -121,7 +120,9 @@
     <!-- INITILIAZE AOS LIBRARY -->
         <script type="text/javascript">
             $(document).ready(function () {
-                AOS.init();
+                AOS.init({
+                    once: true
+                });
             });
         </script>
 </body>

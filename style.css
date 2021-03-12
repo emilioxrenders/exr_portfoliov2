@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
 }
 
 /* BACKGROUND HOMEPAGE */
@@ -56,7 +56,7 @@ body {
 }
 
 .content {
-    padding-bottom: 12vh;
+    padding-bottom: 6vh;
 }
 
 /* CONTENT HOME */
@@ -83,7 +83,7 @@ body {
     color: white;
 }
 
-.bi-chevron-down {
+.bi {
     font-size: 140%;
 }
 
@@ -167,27 +167,39 @@ body {
     z-index: 0;
 }
 
-/* STORYGRAM */
+/* PROJECT PAGES */
 
-.storygram img {
-    border: 1px solid #000;
-}
-
-.storygram h2 {
+.project h2 {
     font-size: 150%;
 }
 
-.storygram p {
+.project p {
     font-size: 80%;
 }
 
-.storygram a {
+.project span {
+    font-size: 80%;
+}
+
+.return a {
+    text-decoration: none!important;
+}
+
+.return {
+    padding-top: 5vh;
+}
+
+.project a {
     color: #000;
     text-decoration: underline;
 }
 
-.storygramtxt {
+.projecttxt {
     margin: 0 0 20px;
+}
+
+.project img {
+    border: 1px solid #000;
 }
 
 /* RESPONSIVE MOBILE */
@@ -201,6 +213,9 @@ body {
         margin: 1vh 0;
     }
     /* FOOTER */
+    .footer {
+        text-align: center;
+    }
     .footer a {
         font-size: 160%;
     }
@@ -209,6 +224,10 @@ body {
     }
     .footer h2 {
         font-size: 190%;
+        margin-bottom: 0.3vh;
+    }
+    .footermobile {
+        margin-top: 4.4vh!important;
     }
     .content {
         padding-bottom: 0;
@@ -220,8 +239,8 @@ body {
     .homecontent h2 {
         font-size: 240%;
     }
-    .bi-chevron-down {
-        font-size: 340%;
+    .bi {
+        font-size: 360%;
     }
     .me {
         margin-bottom: 1vh;
@@ -245,27 +264,40 @@ body {
     .workcontent a {
         font-size: 220%;
     }
-    /* STORYGRAM */
-    .storygram img {
-        width: 80%;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .storygram h2 {
+    /* PROJECT PAGES */
+    .project h2 {
         font-size: 380%;
     }
-    .storygram p {
+    .project p {
         font-size: 190%;
+    }
+    .project img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .return span {
+        font-size: 190%;
+    }
+    .return a {
+        text-decoration: none!important;
+    }
+    .return {
+        padding-top: 0vh;
+        text-decoration: none!important;
+    }
+    /* MOBILE MARGINS */
+    .mt-4 {
+        margin-top: 2vh!important;
+    }
+    .mt-3 {
+        margin-top: 2vh!important;
     }
 }
 
 @media (max-width: 992px) and (min-width:767px) and (orientation: portrait) {
     /* HEADER */
     .header a {
-        font-size: 180%;
-    }
-    .logoheader {
-        font-size: 320%;
+        font-size: 220%;
     }
     .content {
         padding-bottom: 0vh;
@@ -280,8 +312,8 @@ body {
     .bi-chevron-down {
         font-size: 240%;
     }
-    /* STORYGRAM */
-    .storygram img {
+    /* PROJECT PAGES */
+    .project img {
         width: 100%;
     }
 }

@@ -34,13 +34,13 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-2 col-4">
-                        <a href="/"><div class="logoheader">EXR</div></a>
+                        <a href="/exr_portfoliov2/index.html"><div class="logoheader">EXR</div></a>
                     </div>
                     <div class="col-md-2 offset-md-6 col-3 offset-2 text-end">
                         <a class="align-middle border-bottom" href="/exr_portfoliov2/index.html">Home</a>
                     </div>
                     <div class="col-md-2 col-3 text-end">
-                        <a class="align-middle unactive" href="work.html">Work</a>
+                        <a class="align-middle unactive" href="/exr_portfoliov2/work.html">Work</a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
     </div>
 
     <!-- CONTENT ABOUT -->
-    <div  data-aos="fade-up" class="container mb-5 mt-5 content">
+    <div  data-aos="fade-up" class="container mt-5 content">
         <div class="row about mb-4">
             <div class="col-md-4">
                 <img src="pictures/me.jpg" class="me img-fluid border shadow" alt="Responsive image">
@@ -106,7 +106,9 @@
     <!-- INITILIAZE AOS LIBRARY -->
         <script type="text/javascript">
             $(document).ready(function () {
-                AOS.init();
+                AOS.init({
+                    once: true
+                });        
             });
         </script>
 </body>
