@@ -294,6 +294,8 @@ body {
     }
 }
 
+
+/* RESPONSIVE TABLET */
 @media (max-width: 992px) and (min-width:767px) and (orientation: portrait) {
     /* HEADER */
     .header a {
