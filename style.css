@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.6vw;
+    font-size: 16px;
 }
 
 /* BACKGROUND HOMEPAGE */
@@ -27,32 +27,32 @@ body {
 
 .logoheader {
     color: white!important;
-    font-size: 240%;
-    line-height: 130%;
+    font-size: 2.8em;
+    line-height: 1.2em;
 }
 
 /* FOOTER */
 
 .footer p {
-    font-size: 70%;
+    font-size: 0.8em;
 }
 
 .footer a {
-    font-size: 70%;
+    font-size: 0.8em;
     color: #000;
     text-decoration: none;
 }
 
 .footer h2 {
-    font-size: 110%;
+    font-size: 1.2em;
 }
 
 .footer i {
-    font-size: 140%;
+    font-size: 1.4em;
 }
 
 .footer span {
-    font-size: 140%;
+    font-size: 1.4em;
 }
 
 .content {
@@ -67,12 +67,12 @@ body {
 
 .homecontent h1 {
     font-weight: 700;
-    font-size: 190%;
+    font-size: 2.2em;
 }
 
 .homecontent h2 {
     font-weight: 500;
-    font-size: 100%;
+    font-size: 1.2em;
 }
 
 .down {
@@ -84,7 +84,7 @@ body {
 }
 
 .bi {
-    font-size: 140%;
+    font-size: 1.4em;
 }
 
 /* WORK CONTENT */
@@ -118,17 +118,9 @@ body {
     color: #fff;
 }
 
-.workcontent h2 {
-    font-size: 150%;
-}
-
 .undertxt {
-    font-size: 70%!important;
+    font-size: 0.8em!important;
     font-style: italic;
-}
-
-.workcontent p {
-    font-size: 80%;
 }
 
 .workcontent a {
@@ -169,18 +161,6 @@ body {
 
 /* PROJECT PAGES */
 
-.project h2 {
-    font-size: 150%;
-}
-
-.project p {
-    font-size: 80%;
-}
-
-.project span {
-    font-size: 80%;
-}
-
 .return a {
     text-decoration: none!important;
 }
@@ -206,9 +186,6 @@ body {
 
 @media (max-width: 768px) {
     /* HEADER */
-    .header a {
-        font-size: 220%;
-    }
     .logoheader {
         margin: 1vh 0;
     }
@@ -216,14 +193,7 @@ body {
     .footer {
         text-align: center;
     }
-    .footer a {
-        font-size: 160%;
-    }
-    .footer p {
-        font-size: 160%;
-    }
     .footer h2 {
-        font-size: 190%;
         margin-bottom: 0.3vh;
     }
     .footermobile {
@@ -233,57 +203,15 @@ body {
         padding-bottom: 0;
     }
     /* CONTENT HOMEPAGE */
-    .homecontent h1 {
-        font-size: 420%;
-    }
-    .homecontent h2 {
-        font-size: 240%;
-    }
-    .bi {
-        font-size: 360%;
-    }
     .me {
         margin-bottom: 1vh;
     }
-    .about h2 {
-        font-size: 380%;
-    }
-    .about p {
-        font-size: 190%;
-    }
-    /* WORK CONTENT */
-    .workcontent h2 {
-        font-size: 380%;
-    }
-    .undertxt {
-        font-size: 180%!important;
-    }
-    .workcontent p {
-        font-size: 200%;
-    }
-    .workcontent a {
-        font-size: 220%;
-    }
     /* PROJECT PAGES */
-    .project h2 {
-        font-size: 380%;
-    }
-    .project p {
-        font-size: 190%;
-    }
     .project img {
-        width: 80%;
         margin-bottom: 20px;
-    }
-    .return span {
-        font-size: 190%;
-    }
-    .return a {
-        text-decoration: none!important;
     }
     .return {
         padding-top: 0vh;
-        text-decoration: none!important;
     }
     /* MOBILE MARGINS */
     .mt-4 {
@@ -298,21 +226,8 @@ body {
 /* RESPONSIVE TABLET */
 @media (max-width: 992px) and (min-width:767px) and (orientation: portrait) {
     /* HEADER */
-    .header a {
-        font-size: 220%;
-    }
     .content {
         padding-bottom: 0vh;
-    }
-    /* CONTENT HOMEPAGE */
-    .homecontent h1 {
-        font-size: 340%;
-    }
-    .homecontent h2 {
-        font-size: 190%;
-    }
-    .bi-chevron-down {
-        font-size: 240%;
     }
     /* PROJECT PAGES */
     .project img {
