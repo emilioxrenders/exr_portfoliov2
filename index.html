@@ -59,12 +59,12 @@
         </div>
 
         <div class="down d-flex justify-content-center">
-            <a><i class="bi bi-chevron-down"></i></a>
+            <a onClick="document.getElementById('scroll').scrollIntoView({behavior: 'smooth'});"><i class="bi bi-chevron-down"></i></a>
         </div>
     </div>
 
     <!-- CONTENT ABOUT -->
-    <div  data-aos="fade-up" class="container mt-5 content">
+    <div  data-aos="fade-up" class="container mt-5 content" id="scroll">
         <div class="row about mb-4">
             <div class="col-md-4">
                 <img src="pictures/me.jpg" class="me img-fluid border shadow" alt="Responsive image">
