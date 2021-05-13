@@ -28,7 +28,7 @@ body {
 .logoheader {
     color: white!important;
     font-size: 2.4em;
-    line-height: 1.25em;
+    line-height: 1.4em;
 }
 
 /* FOOTER */
@@ -62,7 +62,7 @@ body {
 /* CONTENT HOME */
 
 .homecontent {
-    margin-top: 8vh;
+    margin-top: 10vh;
 }
 
 .homecontent h1 {
@@ -160,6 +160,14 @@ body {
     z-index: 0;
 }
 
+#passepartout {
+    background-image: url(pictures/screen_passepartout.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+
 /* PROJECT PAGES */
 
 .return a {
@@ -189,6 +197,7 @@ body {
     /* HEADER */
     .logoheader {
         margin: 1vh 0;
+        line-height: 1.25em;
     }
     /* FOOTER */
     .footer {
@@ -223,8 +232,8 @@ body {
     }
 }
 
-
 /* RESPONSIVE TABLET */
+
 @media (max-width: 992px) and (min-width:767px) and (orientation: portrait) {
     /* HEADER */
     .content {
